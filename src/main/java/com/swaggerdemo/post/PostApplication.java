@@ -1,0 +1,15 @@
+package com.swaggerdemo.post;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+@SpringBootApplication
+@EnableSwagger2
+public class PostApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PostApplication.class, args);
+	}
+
+}
